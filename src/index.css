@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    letter-spacing: 0.04em;
+  }
+  .font-heading {
+    font-family: 'Syne', sans-serif;
+  }
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .glow-orange {
+    box-shadow: 0 0 30px -5px rgba(249, 115, 22, 0.35);
+  }
+  
+  .glow-orange-lg {
+    box-shadow: 0 0 60px -10px rgba(249, 115, 22, 0.45);
+  }
+
+  .glow-green {
+    box-shadow: 0 0 25px -2px rgba(34, 197, 94, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(249, 115, 22, 0.4);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
+
+/* Background noise overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(249, 115, 22, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+

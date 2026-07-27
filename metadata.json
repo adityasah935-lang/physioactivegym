@@ -1,0 +1,6 @@
+{
+  "name": "PhysioActive Pro Fitness Gym",
+  "description": "Premium strength, conditioning and fitness training in Grant Road West, Tardeo, Mumbai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
